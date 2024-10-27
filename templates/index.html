@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+
+    {% block content%}
+    <button onclick="try_sort()">change sorting</button>
+    
+    <p id="test"></p>
+    
+    <script src="{{url_for('static', filename='js/main.js')}}">
+    </script>
+    {% endblock %}
