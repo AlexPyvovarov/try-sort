@@ -1,11 +1,11 @@
-fetch('/')
-.then(response => response.json())
-.then(data => {
-  console.log(data);
-})
-.catch(error => console.error(error));
+// fetch('/')
+// .then(response => response.json())
+// .then(data => {
+//   console.log(data);
+// })
+// .catch(error => console.error(error));
 
-
+months = ["Jan", "Feb", "Mar", "Apr"]
 let count = 1
 try_sort = () => {
     if (count%2 == 0) {
